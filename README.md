@@ -20,14 +20,14 @@ ex) 해결법
 key = digitalRead(BUTTON);     //버튼값 key 변수에저장 <br>
 
 if(key == LOW){                //버튼 눌러짐 <br>
- if(keyState == HOGH){         //이전 버튼의 상태가 떨어져있다면 
-     Serial.pritln(" 눌러짐 ");  
-     keyState = key;           //버튼상태 저장
- }
- esle{
-  if(keyState != HIGH){
-      Serial.println(" 떨어짐 ");
-      keyState = key;
-   }
- }
-   
+ if(keyState == HOGH){         //이전 버튼의 상태가 떨어져있다면 <br>
+     Serial.pritln(" 눌러짐 ");  <br>
+     keyState = key;           //버튼상태 저장 <br>
+ } <br>
+ esle{ <br>
+  if(keyState != HIGH){ <br>
+      Serial.println(" 떨어짐 "); <br>
+      keyState = key; <br>
+   } <br>
+ } <br>
+    <br>
