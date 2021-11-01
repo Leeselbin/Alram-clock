@@ -17,9 +17,9 @@ Atmega128 을 이용한 알람시계 만들기
 
 ex) 해결법 
 
-key = digitalRead(BUTTON);     //버튼값 key 변수에저장 
+key = digitalRead(BUTTON);     //버튼값 key 변수에저장 <br>
 
-if(key == LOW){                //버튼 눌러짐
+if(key == LOW){                //버튼 눌러짐 <br>
  if(keyState == HOGH){         //이전 버튼의 상태가 떨어져있다면 
      Serial.pritln(" 눌러짐 ");  
      keyState = key;           //버튼상태 저장
